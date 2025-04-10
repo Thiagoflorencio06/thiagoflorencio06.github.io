@@ -87,19 +87,26 @@ p{
 
 
 /*Projetos*/
+#container-projetos {
+    margin: 10px;
+}
+
 .div-projetos {
     width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .projeto {
-    border: 1px rgba(255, 0, 0, 0.938) solid;
+    background-color: rgba(219, 228, 193, 0.877);
     margin: 5px;
+    border-radius: 2cqb;
     text-align: center;
     padding-bottom: 7px;
+    width: 25%;
 }
 
 
-
-
+.titulos-projetos {
+    text-align: center;
+}
